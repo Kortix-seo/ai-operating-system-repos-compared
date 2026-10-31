@@ -2,7 +2,7 @@
 
 Six open-source repos answer a search for "AI operating system" on GitHub, sharing a name rather than a shape. There is a kernel, a single binary, a Workers workspace, a prompt kit, an Android launcher, and a directory of files a company edits. Each is read here from its own files, in October 2026.
 
-Kortix is the open-source AI Operating System. Its starter is the last repo here: one manifest and four folders holding the agents, the memory and the permission grants in a git repo the company owns.
+Kortix is the open-source CompanyOS. Its starter is the last repo here: one manifest and four folders holding the agents, the memory and the permission grants in a git repo the company owns.
 
 ## The test worth running before you clone anything
 
