@@ -34,7 +34,7 @@ An Android application ([repo](https://github.com/khaled4123e/AIOS)) that runs a
 
 ### Kortix is a directory
 
-A clone of the [Kortix starter](https://github.com/kortix-ai/suna/tree/dev/packages/starter/templates/base) is `kortix.yaml` and four folders. The files a session reads are the files you commit, and nothing in it compiles. An agent is a markdown file with frontmatter, a skill is a folder with a `SKILL.md`, and memory is a directory the agent reads before it starts. The manifest holds the grants, so widening an agent's reach arrives as a diff a person approves.
+A clone of the [Kortix starter](https://github.com/kortix-ai/CompanyOS/tree/dev/packages/starter/templates/base) is `kortix.yaml` and four folders. The files a session reads are the files you commit, and nothing in it compiles. An agent is a markdown file with frontmatter, a skill is a folder with a `SKILL.md`, and memory is a directory the agent reads before it starts. The manifest holds the grants, so widening an agent's reach arrives as a diff a person approves.
 
 ## The six repos, side by side
 
@@ -58,7 +58,7 @@ The first excerpt is the layout comment at the top of `kortix.yaml`:
 #   harnesses/opencode/       files only OpenCode reads (`opencode.config_dir`)
 ```
 
-https://github.com/kortix-ai/suna/blob/dev/packages/starter/templates/base/kortix.yaml
+https://github.com/kortix-ai/CompanyOS/blob/dev/packages/starter/templates/base/kortix.yaml
 
 Further down, the grant model states its default: 'an omitted connectors/secrets/kortix_permissions/skills grant resolves to "none", so a scoped specialist starts locked down.' Most repositories here have nowhere to write that. The second excerpt opens the agent every new project boots:
 
@@ -72,7 +72,7 @@ permission: allow
 You are a **Kortix general knowledge worker** for **{{projectName}}**.
 ```
 
-https://github.com/kortix-ai/suna/blob/dev/packages/starter/templates/base/agents/kortix.md
+https://github.com/kortix-ai/CompanyOS/blob/dev/packages/starter/templates/base/agents/kortix.md
 
 A description, a mode, a permission line, a first sentence naming the role. The last instruction in the description is the one that matters: edit this file to specialize it. One isolated sandbox per session. Each session has its own isolated machine and branch.
 
@@ -96,6 +96,6 @@ A runtime expects you to bring the definitions. A workspace expects the company 
 
 Every claim above comes from the repository named beside it, opened in October 2026. If a project ships a change that makes its row wrong, open an issue with the file and the line, and the row gets corrected.
 
-The category, and why its parts map onto an operating system's, is in [what an AI operating system is](https://opensourceaioperatingsystem.com/what-is-aios). The closed products holding the same three things inside a vendor's account are in [the AI Operating System alternatives](https://opensourceaioperatingsystem.com/ai-operating-system-alternatives), and how the field uses the agent-OS name is in [agent OS](https://opensourceaioperatingsystem.com/agent-os). Kortix is at [Kortix](https://kortix.com), and the source at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+The category, and why its parts map onto an operating system's, is in [what an AI operating system is](https://opensourceaioperatingsystem.com/what-is-aios). The closed products holding the same three things inside a vendor's account are in [the AI Operating System alternatives](https://opensourceaioperatingsystem.com/ai-operating-system-alternatives), and how the field uses the agent-OS name is in [agent OS](https://opensourceaioperatingsystem.com/agent-os). Kortix is at [Kortix](https://kortix.com), and the source at [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS).
 
 What the category means, and why a clone is the test, is in [what an AI operating system is](https://opensourceaioperatingsystem.com/what-is-an-ai-operating-system). [The open-source products ranked](https://opensourceaioperatingsystem.com/best-open-source-ai-operating-system) puts the six repos here beside the products that ship the same layer as a download.
